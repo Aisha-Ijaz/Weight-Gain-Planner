@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=DM+Serif+Display:ital@0;1&family=Gochi+Hand&family=Merienda:wght@300..900&family=Rowdies:wght@300;400;700&family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=DM+Serif+Display:ital@0;1&family=Gochi+Hand&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Merienda:wght@300..900&family=Rowdies:wght@300;400;700&family=Yatra+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #85A98F;
+}
+
+.container {
+    margin: 70px 150px 70px 150px;
+    padding: 70px;
+    justify-items: center;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(18, 160, 30, 0.2);
+    width: 1200px;
+    height: 700px;
+    
+}
+
+h1, h2 {
+    text-align: center;
+    color: #525B44;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: "Yatra One", system-ui;
+    text-shadow: 2px 2px black;
+}
+
+h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    text-shadow: 2px 2px #D3F1DF;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid #525B44 ;
+    text-align: center;
+}
+
+thead td {
+    font-family: "Yatra One", system-ui;
+    text-shadow: 1px 1px black;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #85A98F;
+    color: #525B44;
+}
+
+tbody td {
+    font-size: 20px;
+    height: 70px;
+    color: #525B44;
+    width: 20px;  
+}
